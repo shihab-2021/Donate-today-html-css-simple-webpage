@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+/* hero section css start  */
+#hero-section {
+  color: white;
+  background-image: url(./images/donation9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 375px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.hero-text {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.hero-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.hero-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  margin: 0;
+}
+.btn {
+  padding-top: 20px;
+}
+.donate-btn {
+  color: aliceblue;
+  text-decoration: none;
+  background-color: #ff5959;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+/* hero section css end  */
+
+/* donate today section start  */
+.donate-today {
+  text-align: center;
+}
+.donate-today h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.donate-today p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 10px;
+  color: grey;
+}
+.all-amount {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.all-amount .amount {
+  font-family: "Roboto", sans-serif;
+  padding: 35px 25px;
+  background-color: #fafafa;
+  margin: 10px;
+  font-weight: bold;
+  color: gray;
+  border-radius: 5px;
+}
+.all-amount .red-amount {
+  font-family: "Roboto", sans-serif;
+  padding: 35px 25px;
+  margin: 10px;
+  font-weight: bold;
+  color: gray;
+  border-radius: 5px;
+  background-color: rgb(250, 218, 218);
+  border: 2px solid red;
+}
+.donate-amount {
+  margin-top: 30px;
+  color: gray;
+}
+.donate-amount hr {
+  width: 50%;
+}
+/* donate today section end */
+
+/* plans section start  */
+.plan-text {
+  text-align: center;
+}
+.plan-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+  padding-top: 30px;
+}
+.plan-text p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 10px;
+  color: grey;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+}
+.plan1 {
+  width: 230px;
+  margin: 10px;
+  background-color: #4f9da665;
+  border-radius: 10px;
+  padding: 20px;
+}
+.plan2 {
+  width: 230px;
+  margin: 10px;
+  background-color: #ff595988;
+  border-radius: 10px;
+  padding: 20px;
+}
+.plan3 {
+  width: 230px;
+  margin: 10px;
+  background-color: rgb(253, 237, 184);
+  border-radius: 10px;
+  padding: 20px;
+}
+.plans p {
+  color: gray;
+  font-size: 11px;
+}
+/* plans section end */
+
+/* get start section start  */
+.get-start {
+  width: 80%;
+  margin: auto;
+  background-color: #d9d9d9;
+  padding: 30px;
+  display: flex;
+  height: 200px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.get-start-text {
+  width: 50%;
+}
+.get-start-text h2 {
+  font-family: "Roboto", sans-serif;
+  padding-right: 30px;
+}
+.btn1 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #ff5959;
+  border: white;
+  margin-right: 10px;
+}
+.btn2 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #59ffa4;
+  border: white;
+}
+.get-start-img {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* get start section end */
+
+/* updates section start  */
+.update-text {
+  text-align: center;
+}
+.update-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+  padding-top: 30px;
+}
+.update-text p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 10px;
+  color: grey;
+}
+.form {
+  background-color: rgb(252, 235, 215);
+  width: 60%;
+  text-align: center;
+  padding-top: 5%;
+  margin-left: 20%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+#submit-btn {
+  height: 40px;
+  width: 174px;
+  margin-left: -5px;
+  margin-right: 0px;
+  background-color: #ff5959;
+  color: rgb(251, 253, 255);
+  border-radius: 0px 5px 5px 0px;
+  border: 0px solid;
+}
+#email-input {
+  height: 38px;
+  width: 250px;
+  background-color: #d9d9d9;
+  color: rgb(251, 253, 255);
+  border-radius: 5px 0px 0px 5px;
+  border: 0px solid;
+}
+/* updates section end */
+
+/* footer section start  */
+footer {
+  background-color: black;
+  padding: 20px 0px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+footer h1 {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+}
+footer p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 10px;
+}
+/* footer section end */
